@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		79DA4929291D231F00A43627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA4928291D231F00A43627 /* AppDelegate.swift */; };
 		79DA492B291D231F00A43627 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA492A291D231F00A43627 /* SceneDelegate.swift */; };
-		79DA492D291D231F00A43627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA492C291D231F00A43627 /* ViewController.swift */; };
-		79DA4930291D231F00A43627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DA492E291D231F00A43627 /* Main.storyboard */; };
 		79DA4932291D232100A43627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DA4931291D232100A43627 /* Assets.xcassets */; };
 		79DA4935291D232100A43627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DA4933291D232100A43627 /* LaunchScreen.storyboard */; };
+		79DA493D291D25F000A43627 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA493C291D25F000A43627 /* CardSelectionVC.swift */; };
+		79DA493F291D2A4300A43627 /* SCAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA493E291D2A4300A43627 /* SCAButton.swift */; };
+		79DA4941291D45C800A43627 /* ConfigureUIExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA4940291D45C800A43627 /* ConfigureUIExt.swift */; };
+		79DA4943291D47C200A43627 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA4942291D47C200A43627 /* RulesVC.swift */; };
+		79DA4945291D546100A43627 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA4944291D546100A43627 /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		79DA4925291D231F00A43627 /* ShuffleCardAppV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuffleCardAppV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DA4928291D231F00A43627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79DA492A291D231F00A43627 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		79DA492C291D231F00A43627 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		79DA492F291D231F00A43627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79DA4931291D232100A43627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79DA4934291D232100A43627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79DA4936291D232100A43627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79DA493C291D25F000A43627 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		79DA493E291D2A4300A43627 /* SCAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCAButton.swift; sourceTree = "<group>"; };
+		79DA4940291D45C800A43627 /* ConfigureUIExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureUIExt.swift; sourceTree = "<group>"; };
+		79DA4942291D47C200A43627 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
+		79DA4944291D546100A43627 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 		79DA4927291D231F00A43627 /* ShuffleCardAppV2 */ = {
 			isa = PBXGroup;
 			children = (
+				79DA4944291D546100A43627 /* Deck.swift */,
+				79DA4940291D45C800A43627 /* ConfigureUIExt.swift */,
 				79DA4928291D231F00A43627 /* AppDelegate.swift */,
 				79DA492A291D231F00A43627 /* SceneDelegate.swift */,
-				79DA492C291D231F00A43627 /* ViewController.swift */,
-				79DA492E291D231F00A43627 /* Main.storyboard */,
+				79DA493C291D25F000A43627 /* CardSelectionVC.swift */,
+				79DA4942291D47C200A43627 /* RulesVC.swift */,
+				79DA493E291D2A4300A43627 /* SCAButton.swift */,
 				79DA4931291D232100A43627 /* Assets.xcassets */,
 				79DA4933291D232100A43627 /* LaunchScreen.storyboard */,
 				79DA4936291D232100A43627 /* Info.plist */,
@@ -127,7 +136,6 @@
 			files = (
 				79DA4935291D232100A43627 /* LaunchScreen.storyboard in Resources */,
 				79DA4932291D232100A43627 /* Assets.xcassets in Resources */,
-				79DA4930291D231F00A43627 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +146,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79DA492D291D231F00A43627 /* ViewController.swift in Sources */,
+				79DA4945291D546100A43627 /* Deck.swift in Sources */,
 				79DA4929291D231F00A43627 /* AppDelegate.swift in Sources */,
+				79DA493F291D2A4300A43627 /* SCAButton.swift in Sources */,
+				79DA4943291D47C200A43627 /* RulesVC.swift in Sources */,
 				79DA492B291D231F00A43627 /* SceneDelegate.swift in Sources */,
+				79DA493D291D25F000A43627 /* CardSelectionVC.swift in Sources */,
+				79DA4941291D45C800A43627 /* ConfigureUIExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		79DA492E291D231F00A43627 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79DA492F291D231F00A43627 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		79DA4933291D232100A43627 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,11 +294,11 @@
 				DEVELOPMENT_TEAM = 24928479RW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShuffleCardAppV2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ShuffleCard(ProgrammaticUI)";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +322,11 @@
 				DEVELOPMENT_TEAM = 24928479RW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShuffleCardAppV2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ShuffleCard(ProgrammaticUI)";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
